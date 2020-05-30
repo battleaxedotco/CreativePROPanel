@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtensionList>
-    <Extension Id="com.creativepropanel.panel">
+    <Extension Id="com.$SLUG$.panel">
         <HostList>
-            <Host Name="ILST" Port="1422" />
+            <Host Name="ILST" Port="$PORT$" />
         </HostList>
     </Extension>
 </ExtensionList>

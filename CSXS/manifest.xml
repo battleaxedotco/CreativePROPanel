@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ExtensionManifest ExtensionBundleId="com.creativepropanel" ExtensionBundleVersion="1.0.0" ExtensionBundleName="creativepropanel" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest ExtensionBundleId="com.$SLUG$" ExtensionBundleVersion="1.0.0" ExtensionBundleName="$SLUG$" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ExtensionList>
-    <Extension Id="com.creativepropanel.panel" Version="1.0.0" />
+    <Extension Id="com.$SLUG$.panel" Version="1.0.0" />
   </ExtensionList>
   <ExecutionEnvironment>
     <HostList><Host Name="ILST" Version="[23,99.9]" /></HostList>
@@ -13,7 +13,7 @@
     </RequiredRuntimeList>
   </ExecutionEnvironment>
   <DispatchInfoList>
-    <Extension Id="com.creativepropanel.panel">
+    <Extension Id="com.$SLUG$.panel">
       <DispatchInfo>
         <Resources>
           <MainPath>./public/index-dev.html</MainPath>
@@ -28,7 +28,7 @@
         </Lifecycle>
         <UI>
           <Type>Panel</Type>
-          <Menu>CreativePROPanel</Menu>
+          <Menu>$NAME$</Menu>
           <Geometry>
             <Size>
               <Height>400</Height>
